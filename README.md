@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isEqualUint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint32array@deno/mod.js';
+import isEqualUint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint32array@v0.1.0-deno/mod.js';
 ```
 
 #### isEqualUint32Array( v1, v2 )
@@ -79,7 +79,7 @@ bool = isEqualUint32Array( x, new Uint32Array( [ 1, 3 ] ) );
 
 ```javascript
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@deno/mod.js';
-import isEqualUint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint32array@deno/mod.js';
+import isEqualUint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint32array@v0.1.0-deno/mod.js';
 
 var x = new Uint32Array( [ 1, 2, 3 ] );
 var y = new Uint32Array( [ 1, 2, 3 ] );
