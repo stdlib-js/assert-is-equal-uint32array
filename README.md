@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isEqualUint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint32array@esm/index.mjs';
+import isEqualUint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint32array@v0.1.1-esm/index.mjs';
 ```
 
 #### isEqualUint32Array( v1, v2 )
@@ -84,7 +84,7 @@ bool = isEqualUint32Array( x, new Uint32Array( [ 1, 3 ] ) );
 <script type="module">
 
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@esm/index.mjs';
-import isEqualUint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint32array@esm/index.mjs';
+import isEqualUint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-equal-uint32array@v0.1.1-esm/index.mjs';
 
 var x = new Uint32Array( [ 1, 2, 3 ] );
 var y = new Uint32Array( [ 1, 2, 3 ] );
